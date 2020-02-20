@@ -1,0 +1,1 @@
+In this course, you have learned about the different categories of Linux commands. To be good computational biologist or a professional Bioinformatician, one must know what these commands are and how they can be applied to quickly process your data.

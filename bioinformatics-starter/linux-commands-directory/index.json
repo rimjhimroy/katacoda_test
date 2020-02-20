@@ -1,0 +1,60 @@
+{
+  "pathwayTitle": "Introduction to Linux",
+  "title": "Directory Commands in Linux",
+  "description": "Linux Commands for managing Directories.",
+  "difficulty": "Beginner",
+  "time": "30 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "Start",
+        "text": "linux-cmds-start.md"
+      },
+      {
+        "title": "pwd (Print Working Directory)",
+        "text": "linux-cmds-1-pwd.md"
+      },
+      {
+        "title": "ls (List Directory Contents)",
+        "text": "linux-cmds-2-ls.md"
+      },
+      {
+        "title": "cd (Change Directory)",
+        "text": "linux-cmds-3-cd.md"
+      },
+      {
+        "title": "mkdir (Make Directory)",
+        "text": "linux-cmds-4-mkdir.md"
+      },
+      {
+        "title": "rmdir (Remove Directory)",
+        "text": "linux-cmds-5-rmdir.md"
+      },
+      {
+        "title": "End",
+        "text": "linux-cmds-end.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md",
+      "credits": "&copy; CyberShaolin. All rights reserved.",
+      "code": "setupEnv.sh"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "icon": "fa-ubuntu",
+    "showdashboard": true,
+    "hideintro": true,
+    "hidefinish":true,
+    "dashboards": [{"name": "Local Website", "href": "https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com"},
+    {"name": "CyberShaolin Website", "href": "https://www.cybershaolin.org"}],
+    "uilayout": "terminal",
+    "uimessage1": "\u001b[32mCyberShaolin Terminal.\u001b[m\r\n"
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
