@@ -1,0 +1,45 @@
+{
+  "pathwayTitle": "Introduction to Linux",
+  "title": "Linux Commands - Hackercise",
+  "description": "Capture the Flag Hands-On exercise using Linux Commands (for Hackers).",
+  "difficulty": "Advanced",
+  "time": "30-45 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "Start Hackercise",
+        "text": "lc-hackercise-1-start.md"
+      },
+      {
+        "title": "Scenario - Dragon Warrior Linux Command Hackercise",
+        "text": "lc-hackercise-2-scenario.md",
+        "answer": "lc-hackercise-3-solution.md"
+      },
+      {
+        "title": "End Hackercise",
+        "text": "lc-hackercise-4-end.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md",
+      "credits": "&copy; CyberShaolin. All rights reserved.",
+      "code": "setupEnv.sh"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "icon":"fa-docker",
+    "showdashboard": true,
+    "hideintro": true,
+    "hidefinish":true,
+    "dashboards": [{"name": "Local Website", "href": "https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com"},
+    {"name": "CyberShaolin Website", "href": "https://www.cybershaolin.org"}],
+    "uilayout": "terminal",
+    "uimessage1": "\u001b[32mCyberShaolin Terminal.\u001b[m\r\n"
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}

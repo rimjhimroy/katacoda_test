@@ -1,0 +1,1 @@
+In this course, you have learned about the different categories of Linux commands. To be good hacker or a cybersecurity professional, one must know what these commands are and how they can be used to find weaknesses in networks and applications or build cybersecurity protection.

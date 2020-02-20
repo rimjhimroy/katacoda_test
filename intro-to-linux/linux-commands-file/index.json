@@ -1,0 +1,60 @@
+{
+  "pathwayTitle": "Introduction to Linux",
+  "title": "File Commands in Linux",
+  "description": "Linux Commands for managing Files.",
+  "difficulty": "Beginner",
+  "time": "30 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "cat (Concatenate a file)",
+        "text": "linux-cmds-1-cat.md"
+      },
+      {
+        "title": "file (Determine file type)",
+        "text": "linux-cmds-2-mv.md"
+      },
+      {
+        "title": "touch (Change file timestamp)",
+        "text": "linux-cmds-3-touch.md"
+      },
+      {
+        "title": "mv (Move or Rename a file)",
+        "text": "linux-cmds-4-file.md"
+      },
+      {
+        "title": "rm (Remove or delete file(s))",
+        "text": "linux-cmds-5-rm.md"
+      },
+      {
+        "title": "diff (Show the difference between two files)",
+        "text": "linux-cmds-6-diff.md"
+      },
+      {
+        "title": "diff3 (Show the difference between three files)",
+        "text": "linux-cmds-7-diff3.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md",
+      "credits": "&copy; CyberShaolin. All rights reserved.",
+      "code": "setupEnv.sh"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "icon": "fa-ubuntu",
+    "showdashboard": true,
+    "hideintro": true,
+    "hidefinish":true,
+    "dashboards": [{"name": "Local Website", "href": "https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com"},
+    {"name": "CyberShaolin Website", "href": "https://www.cybershaolin.org"}],
+    "uilayout": "terminal",
+    "uimessage1": "\u001b[32mCyberShaolin Terminal.\u001b[m\r\n"
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
