@@ -3,31 +3,6 @@
   "description": "Bioinformatics starter",
   "courses": [
     {
-      "course_id": "bioinformatics-starter\\linux-os",
-      "title": "Linux OS",
-      "description": "Linux Operating System."
-    },
-    {
-      "course_id": "bioinformatics-starter\\linux-commands",
-      "title": "Linux Commands",
-      "description": "Linux Commands (for Hackers)"
-    },
-    {
-      "course_id": "bioinformatics-starter\\linux-commands-file",
-      "title": "File Commands in Linux",
-      "description": "Linux Commands for managing Files."
-    },
-    {
-      "course_id": "bioinformatics-starter\\linux-commands-directory",
-      "title": "Directory Commands in Linux",
-      "description": "Linux Commands for managing Directories."
-    },
-    {
-      "course_id": "bioinformatics-starter\\quiz",
-      "title": "Interactive Quiz",
-      "description": "Verify understand and key points by using an interactive quiz"
-    },
-    {
       "course_id": "linux-commands",
       "title": "Linux Commands",
       "description": "Linux Commands (for Hackers)"
