@@ -10,7 +10,7 @@ Now type in `ls`{{execute}}
 
 Enter the folder plastid_sequence_analysis: `cd plastid_sequence_analysis`{{execute}}, and explore `ls`{{execute}}
 
-
+As you see, I have copied the plastid fasta sequences along with annotation tables (gff files) for the eight species. Also you have the output GeSeq codon based alignments in the folder. 
 
 <pre class="file" data-target="clipboard">
 install.packages(c(
