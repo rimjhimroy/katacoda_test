@@ -56,9 +56,9 @@
     "showdashboard": true,
     "hideintro": true,
     "hidefinish":true,
-    "dashboards": [{"name": "CyberShaolin Website", "href": "https://www.cybershaolin.org"}],
+    "dashboards": [{"name": "Rimjhim Roy Choudhury's Website", "href": "https://rimjhimroy.github.io/"}],
     "uilayout": "terminal",
-    "uimessage1": "\u001b[32mCyberShaolin Terminal.\u001b[m\r\n"
+    "uimessage1": "\u001b[32mBioinformatician Terminal.\u001b[m\r\n"
   },
   "backend": {
     "imageid": "ubuntu"
