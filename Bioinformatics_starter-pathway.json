@@ -5,7 +5,12 @@
     {
       "course_id": "linux-commands",
       "title": "Linux Commands",
-      "description": "Linux Commands (for Hackers)"
+      "description": "Linux Commands"
+    },
+    {
+      "course_id": "linux-os",
+      "title": "Linux OS",
+      "description": "Linux Commands"
     }
   ]
 }
