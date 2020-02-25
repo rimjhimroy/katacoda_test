@@ -12,8 +12,7 @@
       },
       {
         "title": "Count the number of genes annotated for each plastid",
-        "text": "step2.md",
-	"code": "docker_run_rstudio.sh"
+        "text": "step2.md"
       }
     ],
     "intro": {
