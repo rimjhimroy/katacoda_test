@@ -16,6 +16,11 @@
       "course_id": "rstudio",
       "title": "R with Rstudio",
       "description": "R with Rstudio"
+    },
+    {
+      "course_id": "conda",
+      "title": "Conda package manager",
+      "description": "Conda package manager"
     }
   ]
 }
