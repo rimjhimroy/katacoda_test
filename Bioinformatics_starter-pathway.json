@@ -21,6 +21,11 @@
       "course_id": "conda",
       "title": "Conda package manager",
       "description": "Conda package manager"
+    },
+    {
+      "course_id": "plastid",
+      "title": "Plastid sequence analysis",
+      "description": "Plastid sequence analysis"
     }
   ]
 }
