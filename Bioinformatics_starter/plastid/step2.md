@@ -1,4 +1,4 @@
-Type in the following commands to import the annotation table of <em>Brassica juncea</em> in R
+Type in the following commands to import the annotation table of <em>Brassica juncea</em> in Rstudio
 <pre class="file" data-target="clipboard">
 bju=read.table("plastid_sequence_analysis/gff/Brassica-juncea.gff3",header=F,sep='\t')
 </pre>
