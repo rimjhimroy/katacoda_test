@@ -8,7 +8,7 @@
       {
         "title": "Explore your new UNIX environment",
         "text": "step1.md",
-	"code": "docker_run_rstudio.sh"
+      	"code": "docker_run_rstudio.sh"
       },
       {
         "title": "Count the number of genes annotated for each plastid",
