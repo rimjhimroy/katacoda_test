@@ -1,6 +1,6 @@
 An rstudio-server is starting. Click the [Dashboard](https://[[HOST_SUBDOMAIN]]-8787-[[KATACODA_HOST]].environments.katacoda.com/) tab on the right to see the interface when it is ready.
 
-The following R script, copied from [this tutorial](https://monashbioinformaticsplatform.github.io/r-more/topics/tidyverse.html), will create a simple plot.
+Some plastid files were copied to your environment, lets see what those files are.
 
 <pre class="file" data-target="clipboard">
 install.packages(c(
