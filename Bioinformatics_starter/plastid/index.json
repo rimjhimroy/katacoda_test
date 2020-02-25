@@ -6,7 +6,7 @@
   "details": {
     "steps": [
       {
-        "title": "A Simple Plot",
+        "title": "Count the number of genes annotated for each plastid",
         "text": "step1.md",
 	"code": "docker_run_rstudio.sh"
       }
