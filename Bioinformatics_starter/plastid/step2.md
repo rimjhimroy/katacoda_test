@@ -16,7 +16,14 @@ table(bju$V3)
 
 Can you do the same for plastid sequence of all other species? You can do one by one or create a loop.
 
->>Q3: How many genes are there in <em>Nicotiana tabacum</em> <<
-[*] 10
-[*] 10
-[ ] 200
+>>Q1: How many genes are annotated in <em>Nicotiana tabacum</em> <<
+[*] 135
+[ ] 150
+[ ] 167
+
+>>Q2: How many genes are annotated in <em>Monotropa hypopitys</em> <<
+[ ] 302
+[*] 52
+[ ] 162
+
+Oh no!!! Why are they so different? 
