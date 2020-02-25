@@ -3,7 +3,7 @@ We are in a virtual UNIX environment and an **an rstudio-server is being prepare
 Click the [Dashboard](https://[[HOST_SUBDOMAIN]]-8787-[[KATACODA_HOST]].environments.katacoda.com/) tab on the right to see the interface when it is ready. But before that, let's explore where we are.
 
 Open a new terminal using the "+" on the right.
-Type in `pwd`{{execute}}
+Type in `pwd`{{execute}}; `lsb_release -a`{{execute}}
 
 Some plastid files were copied to your environment, let's see what those files are:
 Now type in `ls`{{execute}}
