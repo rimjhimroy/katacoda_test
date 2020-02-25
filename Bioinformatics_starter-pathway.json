@@ -16,6 +16,11 @@
       "course_id": "bioinformatics-starter\\linux-commands-file",
       "title": "File Commands in Linux",
       "description": "Linux Commands for managing Files."
+    },
+    {
+      "course_id": "bioinformatics-starter\\linux-commands-directory",
+      "title": "Directory Commands in Linux",
+      "description": "Linux Commands for managing Directories."
     }
   ]
 }
