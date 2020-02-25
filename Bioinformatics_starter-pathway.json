@@ -26,6 +26,11 @@
       "course_id": "bioinformatics-starter\\quiz",
       "title": "Interactive Quiz",
       "description": "Verify understand and key points by using an interactive quiz"
+    },
+    {
+      "course_id": "linux-commands",
+      "title": "Linux Commands",
+      "description": "Linux Commands (for Hackers)"
     }
   ]
 }
