@@ -1,0 +1,66 @@
+{
+  "pathwayTitle": "Introduction to Linux",
+  "title": "Linux OS",
+  "description": "Linux Operating System.",
+  "difficulty": "Beginner",
+  "time": "30 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "What is Linux?",
+        "text": "linux-os-1-what-is-linux.md"
+      },
+      {
+        "title": "The Kernel",
+        "text": "linux-os-2-the-kernel.md"
+      },
+      {
+        "title": "Bootloader",
+        "text": "linux-os-3-bootloader.md"
+      },
+      {
+        "title": "Daemons",
+        "text": "linux-os-4-daemons.md"
+      },
+      {
+        "title": "Graphical Server",
+        "text": "linux-os-5-graphical-server.md"
+      },
+      {
+        "title": "Desktop Environment (DE) and Applications",
+        "text": "linux-os-6-de-and-apps.md"
+      },
+      {
+        "title": "Command Line (or) Shell",
+        "text": "linux-os-7-shell.md"
+      },
+      {
+        "title": "Distros",
+        "text": "linux-os-8-distros.md"
+      },
+      {
+        "title": "Why Linux?",
+        "text": "linux-os-9-why-linux.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md",
+      "credits": "&copy; CyberShaolin"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "icon":"fa-ubuntu",
+    "showdashboard": true,
+    "hideintro": true,
+    "hidefinish":true,
+    "dashboards": [{"name": "CyberShaolin Website", "href": "https://www.cybershaolin.org"}],
+    "uilayout": "terminal",
+    "uimessage1": "\u001b[32mCyberShaolin Terminal.\u001b[m\r\n"
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
