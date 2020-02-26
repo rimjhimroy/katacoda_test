@@ -1,7 +1,11 @@
 Install and load the very useful "ape" package that is required for calculating distance matrices from codon-based multiple sequence alignment files.
 
+There are several commands that are available in base R, e.g., `read.table`, `table`,
+and other commands that you saw in the previous exercise.
+
+However, there are several R packages, collections of functions and data sets developed by the ever growing R community. One of such packages is `ape` which we will use in this exercise. To get any such external packages you need to install it forst with the `install.packages` command. Here, `ape` is already installed for you, so you don't need to run `install.packages("ape")`, but you have to load it with `library(ape)`
+
 <pre class="file" data-target="clipboard">
-install.packages("ape")
 library(ape)
 </pre>
 
