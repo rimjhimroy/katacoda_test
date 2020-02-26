@@ -6,8 +6,13 @@
   "details": {
     "steps": [
       {
+        "title": "Annotation and analysis of non-recombining and maternally inherited loci from different species        ",
+        "text": "get_plastid.md",
+        "code": "docker_run_rstudio.sh"
+      },
+      {
         "title": "Explore your new UNIX environment",
-        "text": "step1.md",
+        "text": "step1.md",        
       	"code": "docker_run_rstudio.sh"
       },
       {
@@ -37,7 +42,8 @@
   "environment": {
     "uilayout": "terminal-iframe",
     "hideintro": true,
-    "hidefinish": false
+    "hidefinish": false,
+    "dashboards": [{"name": "GeSeq website", "href": "https://chlorobox.mpimp-golm.mpg.de/geseq.html"}]
   },
   "backend": {
     "imageid": "ubuntu",
