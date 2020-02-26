@@ -1,4 +1,6 @@
-Type in the following commands to import the annotation table of <em>Brassica juncea</em> in Rstudio
+Type in the following commands to import the annotation table of <em>Brassica juncea</em> in Rstudio  
+
+If you do not see the **four** panes typical of Rstudio, please go to *View* -> *Panes* -> *Show All Panes*  
 <pre class="file" data-target="clipboard">
 bju=read.table("plastid_sequence_analysis/gff/Brassica-juncea.gff3",header=F,sep='\t')
 </pre>
