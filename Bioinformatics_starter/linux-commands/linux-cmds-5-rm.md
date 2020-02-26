@@ -1,1 +1,0 @@
-`rm` stands for Remove

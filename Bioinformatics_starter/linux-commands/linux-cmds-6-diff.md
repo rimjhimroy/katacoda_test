@@ -1,1 +1,0 @@
-`diff` stands for Difference

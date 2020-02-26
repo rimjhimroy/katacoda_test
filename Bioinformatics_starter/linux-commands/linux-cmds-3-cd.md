@@ -1,17 +1,19 @@
 `cd` stands for Change Directory.  
 
-Type `cd .secrets`{{execute}} and press enter.
-NOTE: Don't forget the dot `(.)` in front of the word `secrets`.
+Type `cd cybershaolin`{{execute}} and press enter.
 
-What you just did was you changed your directory to the .secrets directory. You can check by typing `pwd`{{execute}} and pressing enter.
+What you just did was you changed your directory to the `cybershaolin` directory.
 
-You will now be in the `/.secrets` directory.
+You can check by typing `pwd`{{execute}} and pressing enter.
 
-Now type `ls`{{execute}} and press enter and you will see that there is a text file in there called `TopSecret`.
+You will now be in the `/cybershaolin` directory.
+
+Now type `ls`{{execute}} and press enter.
+You will see that there are some files related to superheroes comic companies (e.g., dc and marvel) as well as a villains file that is compressed as a tape archive (.tar file) as shown below.
+
+`root@2c76ac044cd9:/cybershaolin# ls
+superheroes_dc1.txt  superheroes_dc2.txt  superheroes_dc3.txt  superheroes_marvel.txt  villains.tar`
 
 __cd and ../(DotDotSlash))__  
 In order to go to the previous folder, you can use the shortform `../` (DotDotSlash) along with the `cd` command.  
-Since you are in the `.secrets` directory now, you can go to the previous directory using the `cd ../` command.
-
-Type `cd ../`{{execute}} and you will find yourself back at the `/` directory.
-By typing `ls -la`{{execute}}, you will find that you are indeed in the `/` directory.
+Since you are in the `cybershaolin` directory now, you can go to the previous directory using the `cd ../` command.

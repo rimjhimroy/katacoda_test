@@ -1,2 +1,6 @@
-In this course, you have learned about some common file commands in Linux.
-You are most likely to be dealing a lot with files and it is important that you are familiar with as many file commands.
+In this course, you have learned to use some common linux commands.  
+
+The end result of this training kwoon should have all the superhero and villain text files organized in their respective folders as shown below.
+`.  ..  dc  marvel  villains  villains.tar`
+
+Hope you had fun learning! :-)

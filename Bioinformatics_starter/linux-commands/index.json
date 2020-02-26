@@ -35,45 +35,46 @@
         "text": "linux-cmds-4-mkdir.md"
       },
       {
-        "title": "rmdir (Remove Directory)",
-        "text": "linux-cmds-5-rmdir.md"
+        "title": "diff (Difference)",
+        "text": "linux-cmds-5-diff.md"
       },
       {
-        "title": "End",
+        "title": "rm (Remove)",
+        "text": "linux-cmds-6-rm.md"
+      },
+      {
+        "title": "mv (Move or Rename)",
+        "text": "linux-cmds-7-mv.md"
+      },
+      {
+        "title": "tar (Tape Archive)",
+        "text": "linux-cmds-8-tar.md"
+      },
+      {
+        "title": "cat (Concatenate)",
+        "text": "linux-cmds-9-cat.md"
+      },
+      {
+        "title": "locate",
+        "text": "linux-cmds-10-locate.md"
+      },
+      {
+        "title": "file",
+        "text": "linux-cmds-11-file.md"
+      },
+      {
+        "title": "unzip",
+        "text": "linux-cmds-12-unzip.md"
+      },
+      {
+        "title": "grep (Global Regular Expression Print)",
+        "text": "linux-cmds-13-grep.md"
+      },
+      {
+        "title": "The End",
         "text": "linux-cmds-end.md"
-      },
-      {
-        "title": "cp (Copy a file)",
-        "text": "linux-cmds-1-cp.md"
-      },
-      {
-        "title": "file (Determine file type)",
-        "text": "linux-cmds-2-mv.md"
-      },
-      {
-        "title": "touch (Change file timestamp)",
-        "text": "linux-cmds-3-touch.md"
-      },
-      {
-        "title": "mv (Move or Rename a file)",
-        "text": "linux-cmds-4-file.md"
-      },
-      {
-        "title": "rm (Remove or delete file(s))",
-        "text": "linux-cmds-5-rm.md"
-      },
-      {
-        "title": "diff (Show the difference between two files)",
-        "text": "linux-cmds-6-diff.md"
-      },
-      {
-        "title": "diff3 (Show the difference between three files)",
-        "text": "linux-cmds-7-diff3.md"
-      },
-      {
-        "title": "Linux Commands Cheatsheet",
-        "text": "linux-cmds-3-cheatsheet.md"
       }
+    
     ],
     "intro": {
       "text": "intro.md",
