@@ -15,8 +15,8 @@
         "text": "linux-cmds-2-case-sensitive-cmds.md"
       },
       {
-        "title": "cat (Concatenate a file)",
-        "text": "linux-cmds-1-cat.md"
+        "title": "cp (Copy a file)",
+        "text": "linux-cmds-1-cp.md"
       },
       {
         "title": "file (Determine file type)",
