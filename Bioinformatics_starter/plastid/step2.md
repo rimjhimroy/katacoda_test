@@ -40,4 +40,4 @@ Output
 (*) 52
 ( ) 162
 
->>Q3: Oh no!!! Why are they so different? <<
+>>Q3: Oh no!!! Why are they so different? How can you explain this remarkable observation? <<

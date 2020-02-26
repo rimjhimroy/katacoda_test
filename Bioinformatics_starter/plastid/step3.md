@@ -11,6 +11,9 @@ library(adegenet)
 </pre>
 
 Type in the following commands to import the codon-based multiple sequence alignment file for the gene "rbcL" in Rstudio
+
+To view the alignments you can use the web application: *NCBI MSA viewer* (https://www.ncbi.nlm.nih.gov/projects/msaviewer/)  
+
 <pre class="file" data-target="clipboard">
 rbcl <- read.dna("plastid_sequence_analysis/codon_based_alignments/rbcL.fasta",format="fasta")
 </pre>
@@ -47,4 +50,6 @@ sd(d.matk)
 
 >>Q2: Can you find the genes giving the highest mean distance among the species? <<
 
-**HINT:** Use the same loop method as in the previous exercise where we count the number of annotated genes.
+>>Q3: Do all the genes show a similar pattern? How can you explain your observations? <<
+
+**HINT:** Use the same loop method as in the previous exercise where we count the number of annotated genes. Repeat the steps for atleast *rps16* and *rpl14*

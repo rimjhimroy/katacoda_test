@@ -20,3 +20,5 @@ plastid Oryza sativa
 Do not forget to select *CDS* next to the *Genomes* pane. 
 
 To know more about dotplots read *Interpreting dot plots* in (http://www.code10.info/index.php%3Foption%3Dcom_content%26view%3Darticle%26id%3D64:inroduction-to-dot-plots%26catid%3D52:cat_coding_algorithms_dot-plots%26Itemid%3D76)
+
+>>Q1: What do you observe in the above plots? How can you explain the difference between each pair of comparisons? <<
