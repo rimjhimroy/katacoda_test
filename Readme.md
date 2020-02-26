@@ -4,4 +4,4 @@
 
 Browse the following link to check out the course:  
 
-https://katacoda.com/rimjhimroy/courses/test-course
+https://www.katacoda.com/rimjhimroy/courses/bioinformatics_starter
