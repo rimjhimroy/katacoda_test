@@ -48,7 +48,9 @@
       }
     ],
     "intro": {
-      "text": "intro.md"
+      "text": "intro.md",
+      "credits": "&copy; CyberShaolin. All rights reserved.",
+      "code": "setupEnv.sh"
     },
     "finish": {
       "text": "finish.md"
