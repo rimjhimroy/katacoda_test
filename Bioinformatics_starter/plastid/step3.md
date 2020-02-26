@@ -35,6 +35,6 @@ summary(d.matk1)
 </pre>
 
 >>Q1: Which gene is fast evolving? <<
-[ ] rbcL
-[*] matK
+( ) rbcL
+(*) matK
 

@@ -31,13 +31,13 @@ Output
 </pre>
 
 >>Q1: How many genes are annotated in <em>Nicotiana tabacum</em> <<
-[*] 135
-[ ] 150
-[ ] 167
+(*) 135
+( ) 150
+( ) 167
 
 >>Q2: How many genes are annotated in <em>Monotropa hypopitys</em> <<
-[ ] 302
-[*] 52
-[ ] 162
+( ) 302
+(*) 52
+( ) 162
 
 Oh no!!! Why are they so different? 
