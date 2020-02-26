@@ -18,6 +18,17 @@ table(bju$V3)
 
 Can you do the same for plastid sequence of all other species? You can do one by one or create a loop.
 
+**HINT:**
+<pre class="file" data-target="clipboard">
+file = list.files(path="plastid_sequence_analysis/gff",pattern="\\.gff3$") 
+Output <- list()
+for(i in 1:length(file)){
+  data=read.table(paste("plastid_sequence_analysis/gff/",file[i],sep=''),header=F,sep='\t')
+  Output[i] = nrow(data[data$V3=="gene",])
+  names(Output[i])=file[i]
+}
+</pre>
+
 >>Q1: How many genes are annotated in <em>Nicotiana tabacum</em> <<
 [*] 135
 [ ] 150
