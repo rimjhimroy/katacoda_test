@@ -15,6 +15,34 @@
         "text": "linux-cmds-2-case-sensitive-cmds.md"
       },
       {
+        "title": "cat (Concatenate a file)",
+        "text": "linux-cmds-1-cat.md"
+      },
+      {
+        "title": "file (Determine file type)",
+        "text": "linux-cmds-2-mv.md"
+      },
+      {
+        "title": "touch (Change file timestamp)",
+        "text": "linux-cmds-3-touch.md"
+      },
+      {
+        "title": "mv (Move or Rename a file)",
+        "text": "linux-cmds-4-file.md"
+      },
+      {
+        "title": "rm (Remove or delete file(s))",
+        "text": "linux-cmds-5-rm.md"
+      },
+      {
+        "title": "diff (Show the difference between two files)",
+        "text": "linux-cmds-6-diff.md"
+      },
+      {
+        "title": "diff3 (Show the difference between three files)",
+        "text": "linux-cmds-7-diff3.md"
+      },
+      {
         "title": "Linux Commands Cheatsheet",
         "text": "linux-cmds-3-cheatsheet.md"
       }
