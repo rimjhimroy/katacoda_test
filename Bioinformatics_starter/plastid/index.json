@@ -12,8 +12,7 @@
       },
       {
         "title": "Explore your new UNIX environment",
-        "text": "step1.md",        
-      	"code": "docker_run_rstudio.sh"
+        "text": "step1.md"
       },
       {
         "title": "Count the number of genes annotated for each plastid",
@@ -42,8 +41,7 @@
   "environment": {
     "uilayout": "terminal-iframe",
     "hideintro": true,
-    "hidefinish": false,
-    "dashboards": [{"name": "GeSeq website", "href": "https://chlorobox.mpimp-golm.mpg.de/geseq.html"}]
+    "hidefinish": false
   },
   "backend": {
     "imageid": "ubuntu",

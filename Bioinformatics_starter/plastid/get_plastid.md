@@ -12,17 +12,16 @@ Go to https://www.ncbi.nlm.nih.gov/nucleotide/ and search:
 Retrieve their complete chloroplast genome sequences as separate fasta files (i.e. select FASTA form and send to file)
 
 Annotate each of these sequences using GeSeq [link](https://chlorobox.mpimp-golm.mpg.de/geseq.html). Upload all the above downloaded sequences and select:
+*Generate codon-based alignments*,
+*Include references*
 
-Generate codon-based alignments,
-Include references
-
-Also, select ARAGORN for tRNA annotation, and select Plant chloroplast in the genetic code.
+Also, select *ARAGORN* for tRNA annotation, and select *Plant chloroplast* in the genetic code.
 
 In the *BLAT Reference Sequences*, select:  
-MPI-MP chloroplast references (Embryophyta CDS + rRNA) 
+*MPI-MP chloroplast references (Embryophyta CDS + rRNA)* 
 
 In *Actions*, select: I have read and accept the Disclaimer and **Submit**
 
-Wit for the results and download (save) the *GFF3* annotation table for *Annotation* of each of the plastid sequences.
+Wait for the results and download (save) the *GFF3* annotation table for *Annotation* of each of the plastid sequences.
 
 Also, From the *GLOBAL* *Annotation*, download the *Codon based alignment* files and unzip them.
