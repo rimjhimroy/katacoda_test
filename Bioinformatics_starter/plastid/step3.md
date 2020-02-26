@@ -19,7 +19,7 @@ Calculate pairwise nucleotide distances for each pair of sequences in the rbcL m
 <pre class="file" data-target="clipboard">
 d.rbcl <- dist.dna(rbcl, model = "raw")
 temp.rbcl <- as.data.frame(as.matrix(d.rbcl))
-table.paint(temp.rbcl, cleg = 0, clabel.row = .5, clabel.col = .5)
+table.paint(temp.rbcl, cleg = 1, clabel.row = .7, clabel.col = .7)
 </pre>
 
 You can find out more about the commands we are executing with a `?` before the command. For instance, `?dist.dna` gives you all the details about the command `dist.dna` in ape.  
@@ -27,7 +27,8 @@ Inside the paranthesis, are all the parameters that you want to set. For `model 
 
 Calculate some summary statistics from the distance matrix.  
 <pre class="file" data-target="clipboard">
-summary(d.rbcl)
+mean(d.rbcl)
+sd(d.rbcl)
 </pre>
 
 Let's look into matK now.  
@@ -35,11 +36,15 @@ Let's look into matK now.
 matk <- read.dna("plastid_sequence_analysis/codon_based_alignments/matK.fasta",format="fasta")
 d.matk <- dist.dna(matk, model = "raw")
 temp.matk <- as.data.frame(as.matrix(d.matk))
-table.paint(temp.matk, cleg = 0, clabel.row = .5, clabel.col = .5)
-summary(d.matk)
+table.paint(temp.matk, cleg = 1, clabel.row = .7, clabel.col = .7)
+mean(d.matk)
+sd(d.matk)
 </pre>
 
 >>Q1: Which gene is fast evolving? <<
 ( ) rbcL
 (*) matK
 
+>>Q2: Can you find the genes giving the highest mean distance among the species? <<
+
+**HINT:** Use the same loop method as in the previous exercise where we count the number of annotated genes.
