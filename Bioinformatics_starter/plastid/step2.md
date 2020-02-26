@@ -40,4 +40,4 @@ Output
 (*) 52
 ( ) 162
 
-Oh no!!! Why are they so different? 
+>>Q3: Oh no!!! Why are they so different? <<
