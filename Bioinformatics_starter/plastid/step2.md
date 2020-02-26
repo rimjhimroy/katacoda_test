@@ -21,12 +21,13 @@ Can you do the same for plastid sequence of all other species? You can do one by
 **HINT:**
 <pre class="file" data-target="clipboard">
 file = list.files(path="plastid_sequence_analysis/gff",pattern="\\.gff3$") 
-Output <- list()
+Output <- data.frame()
 for(i in 1:length(file)){
-  data=read.table(paste("plastid_sequence_analysis/gff/",file[i],sep=''),header=F,sep='\t')
-  Output[i] = nrow(data[data$V3=="gene",])
-  names(Output[i])=file[i]
+  data <- read.table(paste("plastid_sequence_analysis/gff/",file[i],sep=''),header=F,sep='\t')
+  Output[i,1] <- file[i]
+  Output[i,2] <- nrow(data[data$V3=="gene",])
 }
+Output
 </pre>
 
 >>Q1: How many genes are annotated in <em>Nicotiana tabacum</em> <<
