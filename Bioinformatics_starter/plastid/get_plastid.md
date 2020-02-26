@@ -1,3 +1,5 @@
+Plastids contain non-recombining and maternally inherited loci. We are going to download their sequence from **eight** species and annotate them. 
+
 Go to https://www.ncbi.nlm.nih.gov/nucleotide/ and search: 
 
 1. Marchantia paleacea (NC_001319.1)

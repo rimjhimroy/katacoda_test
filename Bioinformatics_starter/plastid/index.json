@@ -6,7 +6,7 @@
   "details": {
     "steps": [
       {
-        "title": "Annotation and analysis of non-recombining and maternally inherited loci from different species        ",
+        "title": "Annotation and analysis of chloroplasts (plastid sequences) from different species        ",
         "text": "get_plastid.md",
         "code": "docker_run_rstudio.sh"
       },
