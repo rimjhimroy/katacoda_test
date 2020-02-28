@@ -16,7 +16,7 @@ Retrieve their complete chloroplast genome sequences as separate fasta files (i.
 Annotate each of these sequences using GeSeq [link](https://chlorobox.mpimp-golm.mpg.de/geseq.html). 
 
 1. Upload all the above downloaded sequences in *FASTA file(s) to annotate* and select *circular*. In *Sequence source* select *Plastid*
-2. In *Options* select *Generate codon-based alignments* and *Include references*
+2. In *Options* select *Generate multi-FASTA*, *Generate codon-based alignments* and *Include references*
 3. In *BLAT search* select *Annotate plastid IR*, *Annotate plastid trans-spliced rps12* and *Ignore genes annotated as locus tag*. Keep *Protein search identity* to 25 and *rRNA, tRNA, DNA search identity* to 85
 4. In *3rd Party tRNA annotators* select *ARAGORN* and select *Plant chloroplast* in the genetic code
 5. In the *BLAT Reference Sequences*, select *MPI-MP chloroplast references (Embryophyta CDS + rRNA)* 
