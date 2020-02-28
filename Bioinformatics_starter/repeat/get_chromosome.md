@@ -22,7 +22,8 @@ But let's find out what they are!
 
 4. Do the same for other occurrences (Seq2, 17’188 bp). 
 
->>Q2: What is a Gypsy or a Copia element, justify? **HINT:** Refer again to [link](https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fnrg2165/MediaObjects/41576_2007_Article_BFnrg2165_Fig1_HTML.jpg?as=webp) <<
+>>Q2: What is a Gypsy or a Copia element, justify? << 
+**HINT:** Refer again to [link](https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fnrg2165/MediaObjects/41576_2007_Article_BFnrg2165_Fig1_HTML.jpg?as=webp)
 
 5. For each occurrence separately, extract the left flanking sequence (i.e. everything on the left of the first domain). Do the same for the right flanking sequence (i.e. right of the last domain).
 **HINT:** Use 
