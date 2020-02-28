@@ -1,0 +1,42 @@
+{
+  "title": "Plastid sequence analysis",
+  "description": "Plastid sequence analysis",
+  "difficulty": "Beginner",
+  "time": "5 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "Annotation and analysis of repeat sequences        ",
+        "text": "get_chromosome.md",
+        "code": "docker_run_rstudio.sh"
+      },
+      {
+        "title": "Explore your new UNIX environment",
+        "text": "step1.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "assets": {
+    "host01": [
+      {
+        "file": "*.R",
+        "target": "/home/rstudio/"
+      }
+    ]
+  },
+  "environment": {
+    "uilayout": "terminal-iframe",
+    "hideintro": false,
+    "hidefinish": false
+  },
+  "backend": {
+    "imageid": "ubuntu",
+    "port": "8787"
+  }
+}
