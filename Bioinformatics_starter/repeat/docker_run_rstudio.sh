@@ -6,5 +6,5 @@ echo "export PATH=$PATH:$HOME/miniconda/bin" >> $HOME/.bashrc
 source $HOME/.bashrc
 conda config --set auto_activate_base False #set activation of base environment to false
 conda update conda #update conda
-conda install -c bioconda ltr_retriever  
+conda install -y -c bioconda ltr_retriever  
 docker run --rm -p 8787:8787 -v $PWD/repeat_files:/home/rstudio/repeat_files -e ROOT=TRUE -e DISABLE_AUTH=true thibautjombart/adegenet_server
