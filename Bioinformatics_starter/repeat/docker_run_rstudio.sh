@@ -2,7 +2,8 @@ git clone https://github.com/rimjhimroy/repeat_files.git
 wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh #Download miniconda installer
 chmod +x Miniconda3-latest-Linux-x86_64.sh #Make it executable
 ./Miniconda3-latest-Linux-x86_64.sh -b -p $HOME/miniconda #install miniconda
-export PATH="$HOME/miniconda3/bin:$PATH" >> $HOME/.bashrc
+cat "export PATH=$PATH:$(pwd)" >> $HOME/.bashrc
+source $HOME/.bashrc
 conda config --set auto_activate_base False #set activation of base environment to false
 conda update conda #update conda
 conda install -c bioconda ltr_retriever  
