@@ -1,8 +1,8 @@
 {
-  "title": "Plastid sequence analysis",
-  "description": "Plastid sequence analysis",
+  "title": "Repeat sequence analysis",
+  "description": "Repeat sequence analysis",
   "difficulty": "Beginner",
-  "time": "5 minutes",
+  "time": "30 minutes",
   "details": {
     "steps": [
       {
