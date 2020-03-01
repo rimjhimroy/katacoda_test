@@ -44,7 +44,7 @@
   },
   "environment": {
     "uilayout": "terminal-iframe",
-    "hideintro": true,
+    "hideintro": false,
     "hidefinish": false
   },
   "backend": {
