@@ -8,6 +8,7 @@ conda config --set auto_activate_base False #set activation of base environment 
 conda config --add channels conda-forge
 conda config --add channels bioconda
 #conda update conda -y #update conda
-conda create -n ltr_retriever ltr_retriever -y
+conda create -n edta edta -y
 #conda install -c bioconda ltr_retriever -y
+conda init bash
 docker run --rm -p 8787:8787 -v $PWD/repeat_files:/home/rstudio/repeat_files -e ROOT=TRUE -e DISABLE_AUTH=true thibautjombart/adegenet_server

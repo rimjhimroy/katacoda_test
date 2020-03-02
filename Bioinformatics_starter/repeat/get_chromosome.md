@@ -42,8 +42,9 @@ Now let's find out what they are by annotating them!
 
 
 * For each occurrence separately, extract the left flanking sequence (i.e. everything on the left of the first domain). Do the same for the right flanking sequence (i.e. right of the last domain).
-**HINT:** To extract from the start to 100th base pair execute `awk '{if (/^>/) print $0"_Left"; else print(substr($1,1,10))}' file.fasta Seq1.txt > Seq1_left.fasta`  
-To extract from the 1000th base pair to the end of the sequence execute `awk '{if (/^>/) print $0"_Right"; else print(substr($1,1000,length($1)))}' file.fasta Seq1.txt > Seq1_right.fasta`. **Remember to adjust the values in the substr() according to the position of the start of the first domain and end of the last domain.**
+**HINT:** To extract from the start to 100th base pair execute `awk '{if (/^>/) print $0"_Left"; else print(substr($1,1,10))}' Seq1.txt > Seq1_left.fasta`  
+To extract from the 1000th base pair to the end of the sequence execute `awk '{if (/^>/) print $0"_Right"; else print(substr($1,1000,length($1)))}' Seq1.txt > Seq1_right.fasta`.  
+**Remember to adjust the values in the substr() according to the position of the start of the first domain and end of the last domain.**
 
 * Go to « [https://blast.ncbi.nlm.nih.gov/], select Nucleotide Blast, “Align two or more sequences”. Paste one sequence from step 5 as query and the other as subject, select “megablast” and Run Blast. Note the matching positions between the two sequences. 
 
