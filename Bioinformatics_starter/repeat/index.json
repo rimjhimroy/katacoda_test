@@ -2,7 +2,7 @@
   "title": "Repeat sequence analysis",
   "description": "Repeat sequence analysis",
   "difficulty": "Beginner",
-  "time": "30 minutes",
+  "time": "60 minutes",
   "details": {
     "steps": [
       {
@@ -11,8 +11,9 @@
         "code": "docker_run_rstudio.sh"
       },
       {
-        "title": "Explore your new UNIX environment",
-        "text": "step1.md"
+        "title": "Annotate repeats in a Chromosome",
+        "text": "step1.md",
+        "code": "copyfiles.sh"
       },
       {
         "title": "Analyse whole chromosome repeat annotation",

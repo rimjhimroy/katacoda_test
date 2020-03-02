@@ -14,9 +14,11 @@ One of such pipeline is [Extensive de-novo TE Annotator](https://genomebiology.b
 
 * View the file `Arabis_alpina_chr2.fasta.mod.LTR.intact.fa.gff3` in the *Katacoda Editor*. You can see that the table already has identified whether the LTR-RTs belong to the *Gypsy* or *Copia* superfamily (some elements that the pipeline was not able to classify has been named as LTR/Unknown).
 
+* To process the file properly in R replace the occurance of `#` with `;` using the command: `sed -i 's/#/;/g' Arabis_alpina_chr2.fasta.mod.LTR.intact.fa.gff3`{{execute}}
 * Separate the Gypsy and Copia elements in two different tables and get only those lines with the `ltr_identity` values using the command: `grep "Gypsy" Arabis_alpina_chr2.fasta.mod.LTR.intact.fa.gff3 | grep "ltr_identity" > gypsy.gff3`{{execute}};
 `grep "Copia" Arabis_alpina_chr2.fasta.mod.LTR.intact.fa.gff3 | grep "ltr_identity" > copia.gff3`{{execute}}
 
-Les's analyse these data in Rstudio.
+
+Let's analyse these data in Rstudio.
 
 
