@@ -53,3 +53,5 @@ sd(d.matk)
 >>Q3: Do all the genes show a similar pattern? How can you explain your observations? <<
 
 **HINT:** Use the same loop method as in the previous exercise where we count the number of annotated genes. Repeat the steps for atleast *rps16* and *rpl14*
+
+>>Q4: What can be expected for different loci along the plastid genome across plants (see Shaw et al. 2005. Am J Bot)? Should studies be necessarily based on more than one plastid locus? <<
