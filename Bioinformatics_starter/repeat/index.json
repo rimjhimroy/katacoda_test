@@ -33,7 +33,11 @@
   "environment": {
     "uilayout": "editor-terminal",
     "hideintro": false,
-    "hidefinish": false
+    "hidefinish": false,
+    "showvisualise": true,
+    "scope": "docker run --rm -p 8787:8787 -v $PWD/repeat_files:/home/rstudio/repeat_files -e ROOT=TRUE -e DISABLE_AUTH=true thibautjombart/adegenet_server
+    ",
+    "scopePort": 4040
   },
   "backend": {
     "imageid": "ubuntu",
