@@ -8,7 +8,7 @@ Thankfully there are several UNIX based pipelines already available that automat
 
 One of such pipeline is [Extensive de-novo TE Annotator](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-019-1905-y) and we will launch it on the chromosome2 sequence.
 
-* To run this command in your UNIX environment, first execute:`docker run -v $PWD:/in -w /in -it --entrypoint /bin/bash kapeel/edta`{{execute}}
+* To run this command in your UNIX environment, first execute:`docker image ls`{{execute}} to see if *kapeel/edta* is ready for use. If it is present then execute `docker run -v $PWD:/in -w /in -it --entrypoint /bin/bash kapeel/edta`{{execute}}
 
 * Execute `perl /EDTA/EDTA_raw.pl --genome Arabis_alpina_chr2.fasta --type ltr --threads 2`{{execute}}. This might take 5-10 mins, so wait for it to finish. Alternatively, the results of this part are also provided in the `repeat_files/chrom/res` folder. Go to this folder or the `repeat_files/chrom/Arabis_alpina_chr2.fasta.mod.EDTA.raw` folder produced by your run.
 
@@ -17,6 +17,6 @@ One of such pipeline is [Extensive de-novo TE Annotator](https://genomebiology.b
 * Separate the Gypsy and Copia elements in two different tables and get only those lines with the `ltr_identity` values using the command: `grep "Gypsy" Arabis_alpina_chr2.fasta.mod.LTR.intact.fa.gff3 | grep "ltr_identity" > gypsy.gff3`{{execute}};
 `grep "Copia" Arabis_alpina_chr2.fasta.mod.LTR.intact.fa.gff3 | grep "ltr_identity" > copia.gff3`{{execute}}
 
+Les's analyse these data in Rstudio.
 
-Click the [Dashboard](https://[[HOST_SUBDOMAIN]]-8787-[[KATACODA_HOST]].environments.katacoda.com/) to open Rstudio waiting for you to process the annotations.
 

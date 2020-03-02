@@ -13,6 +13,10 @@
       {
         "title": "Explore your new UNIX environment",
         "text": "step1.md"
+      },
+      {
+        "title": "Analyse whole chromosome repeat annotation",
+        "text": "step2.md"
       }
     ],
     "intro": {

@@ -2,9 +2,8 @@ Repetitive elements include low-complexity DNA sequences and Transposable elemen
 See all the different types of repeat: [link](https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fnrg2165/MediaObjects/41576_2007_Article_BFnrg2165_Fig1_HTML.jpg?as=webp)  
 See the life-cycle of LTR-RTs: [link](https://en.wikipedia.org/wiki/LTR_retrotransposon#/media/File:LTR_retrotransposon.png)
 
-Explore your newly create UNIX environment.
 We are in a virtual UNIX environment and an **an rstudio-server is being prepared for you**.  
-Click this [Rstudio](https://[[HOST_SUBDOMAIN]]-8787-[[KATACODA_HOST]].environments.katacoda.com/) link to see the interface when it is ready. But before that, let's explore where we are.
+Explore your newly create UNIX environment.
 
 Open a new terminal using the "+" on the right.  
 The `pwd` command tells you the current folder where you are.  
