@@ -49,8 +49,7 @@ sd(d.matk)
 (*) matK
 
 >>Q2: Can you find the genes giving the highest mean distance among the species? <<
-
-**HINT:** Use the same loop method as in the previous exercise where we count the number of annotated genes. Repeat the steps for atleast *rps16* and *rpl14*
+[**HINT:** Use the same loop method as in the previous exercise where we count the number of annotated genes. Repeat the steps for atleast *rps16* and *rpl14*]
 
 >>Q3: Do all the genes show a similar pattern? How can you explain your observations? <<
 
