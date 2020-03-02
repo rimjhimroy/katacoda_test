@@ -22,16 +22,23 @@ Do the same for `Seq2.txt`.
 In the *Katacoda Editor*, browse the *Seq1.txt* and *Seq2.txt* files.  
 
 Now let's find out what they are by annotating them!  
+* Here in the [link](https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fnrg2165/MediaObjects/41576_2007_Article_BFnrg2165_Fig1_HTML.jpg?as=webp), you see that the most of the repeats code for some proteins. We can search for those protein sequences using a database of protein coding domains.
+* Let's first download those core protein coding domains from gydb.org [http://gydb.org/images/1/1a/Cores.zip], and unzip.
+* Copy the content of *Seq1.txt* from Katacoda Editor to your clipboard. Go to « [NCBI blastx tool](https://blast.ncbi.nlm.nih.gov/Blast.cgi?PROGRAM=blastx&PAGE_TYPE=BlastSearch&BLAST_SPEC=blast2seq&LINK_LOC=blasttab), paste the sequence (12’390 bp) as query. 
+* Select *Align two or more sequences*
+* Upload the extracted core protein coding domains as *Subject*
+* Expand the *Algorithm parameters* and set the *Max target sequences* to 250
+* Run *BLAST* and wait for the results
+* Examine occurrences of protein domains INT (Integrase), RT (Reverse transcriptase), RNAseH, GAG and AP. 
+**Hint** Go to the *Graphic Summry*, hover over each of the hits against the query sequence to get an idea about the annotation of the protein domains of the repeat sequence. Also, download the *Hit Table csv* from the *Download All* link.
 
-* Copy the content of *Seq1.txt* from Katacoda Editor to your clipboard. Go to « [http://gydb.org/index.php/Blast], paste the sequence (12’390 bp) as query. 
-
-* Select “cores” as Database and Blastx as search program, keep search protein domains as all domains. Examine occurrences of protein domains INT (Integrase), RT (Reverse transcriptase), RNAseH, GAG and AP. 
 
 >>Q1: What do stretches of annotation suggest about this locus? <<
 
 <br/>
 
-* Take the first occurrence and draw its structure, noting the position of start and end on the strand.
+* Sort the *Hit Table csv* based on the *bit score* (Column 10) in descending order (largest to smallest) in excel, ignore everything with *bit score* less than 80, select the first occurring hit per protein coding domain with the largest bit score and note its *query start* and *query end* values (Column 7 and 8). 
+* Draw its structure, noting the position of start and end on the strand.
 
 * Do the same for *Seq2.txt* (17’188 bp). 
 
@@ -46,7 +53,7 @@ Now let's find out what they are by annotating them!
 To extract from the 1000th base pair to the end of the sequence execute `awk '{if (/^>/) print $0"_Right"; else print(substr($1,1000,length($1)))}' Seq1.txt > Seq1_right.fasta`  
 **Remember to adjust the values in the substr() according to the position of the start of the first domain and end of the last domain.**
 
-* Go to « [https://blast.ncbi.nlm.nih.gov/], select Nucleotide Blast, “Align two or more sequences”. Paste one sequence from step 5 as query and the other as subject, select “megablast” and Run Blast. Note the matching positions between the two sequences. 
+* Go to « [https://blast.ncbi.nlm.nih.gov/], select Nucleotide Blast, “Align two or more sequences”. Paste one sequence from the previous step as query and the other as subject, select “megablast” and Run Blast. Note the matching positions between the two sequences. 
 
 >>Q3 What structure is it? Add this information in the diagram of LTR retrotransposons. <<
 
