@@ -5,6 +5,7 @@ chmod +x Miniconda3-latest-Linux-x86_64.sh #Make it executable
 echo "export PATH=$PATH:$HOME/miniconda/bin" >> $HOME/.bashrc
 source $HOME/.bashrc
 conda config --set auto_activate_base False #set activation of base environment to false
+conda config --add channels conda-forge
 #conda update conda -y #update conda
 conda create -n ltr_retriever -c bioconda ltr_retriever -y
 #conda install -c bioconda ltr_retriever -y
