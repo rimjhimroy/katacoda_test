@@ -4,7 +4,7 @@ See the life-cycle of LTR-RTs: [link](https://en.wikipedia.org/wiki/LTR_retrotra
 
 Explore your newly create UNIX environment.
 We are in a virtual UNIX environment and an **an rstudio-server is being prepared for you**.  
-Click the [Dashboard](https://[[HOST_SUBDOMAIN]]-8787-[[KATACODA_HOST]].environments.katacoda.com/) tab on the right to see the interface when it is ready. But before that, let's explore where we are.
+Click this [Rstudio](https://[[HOST_SUBDOMAIN]]-8787-[[KATACODA_HOST]].environments.katacoda.com/) link to see the interface when it is ready. But before that, let's explore where we are.
 
 Open a new terminal using the "+" on the right.  
 The `pwd` command tells you the current folder where you are.  
