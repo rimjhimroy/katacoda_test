@@ -19,9 +19,11 @@ At the moment you have no other information about the sequences, except that the
 In UNIX it is very convenient to get some other information from your files. For instance, to count the number of base-pairs you just have to execute `grep -v ">" Seq1.txt | wc | awk '{print $3-$1}'`{{execute}}.  
 Do the same for `Seq2.txt`.  
 
+In the *Katacoda Editor*, browse the *Seq1.txt* and *Seq2.txt* files.  
+
 Now let's find out what they are by annotating them!  
 
-* Go to « [http://gydb.org/index.php/Blast], paste the sequence Seq1 (12’390 bp) as query. 
+* Copy the content of *Seq1.txt* from Katacoda Editor to your clipboard. Go to « [http://gydb.org/index.php/Blast], paste the sequence (12’390 bp) as query. 
 
 * Select “cores” as Database and Blastx as search program, keep search protein domains as all domains. Examine occurrences of protein domains INT (Integrase), RT (Reverse transcriptase), RNAseH, GAG and AP. 
 
@@ -31,7 +33,7 @@ Now let's find out what they are by annotating them!
 
 * Take the first occurrence and draw its structure, noting the position of start and end on the strand.
 
-* Do the same for other occurrences (Seq2, 17’188 bp). 
+* Do the same for *Seq2.txt* (17’188 bp). 
 
 >>Q2: What is a Gypsy or a Copia element, justify? << 
 <br/>
@@ -40,7 +42,8 @@ Now let's find out what they are by annotating them!
 
 
 * For each occurrence separately, extract the left flanking sequence (i.e. everything on the left of the first domain). Do the same for the right flanking sequence (i.e. right of the last domain).
-**HINT:** Use 
+**HINT:** To extract from the start to 100th base pair execute `awk '{if (/^>/) print $0"_Left"; else print(substr($1,1,10))}' file.fasta Seq1.txt > Seq1_left.fasta`  
+To extract from the 1000th base pair to the end of the sequence execute `awk '{if (/^>/) print $0"_Right"; else print(substr($1,1000,length($1)))}' file.fasta Seq1.txt > Seq1_right.fasta`. **Remember to adjust the values in the substr() according to the position of the start of the first domain and end of the last domain.**
 
 * Go to « [https://blast.ncbi.nlm.nih.gov/], select Nucleotide Blast, “Align two or more sequences”. Paste one sequence from step 5 as query and the other as subject, select “megablast” and Run Blast. Note the matching positions between the two sequences. 
 
