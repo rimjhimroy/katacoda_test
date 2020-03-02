@@ -31,7 +31,7 @@
     ]
   },
   "environment": {
-    "uilayout": "editor-terminal-iframe",
+    "uilayout": "editor-terminal",
     "hideintro": false,
     "hidefinish": false
   },
