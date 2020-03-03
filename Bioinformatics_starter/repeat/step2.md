@@ -10,6 +10,7 @@ Now let's import the `Arabis_alpina_LTRRT_annotation.gff3` file that we prepared
 
 <pre class="file" data-target="clipboard">
 ltrrt <- gffRead("repeat_files/chrom/Arabis_alpina_chr2.fasta.mod.EDTA.raw/Arabis_alpina_LTRRT_annotation.gff3")
+View(ltrrt) # to explore the annotation table
 # If you want to use the file we provide in the results folder, run:
 # ltrrt <- gffRead("repeat_files/chrom/res/Arabis_alpina_LTRRT_annotation.gff3")
 ltrrt$perName <- getAttributeField(ltrrt$attributes, "ID")
@@ -23,7 +24,7 @@ ltrrt$perID <- as.numeric(getAttributeField(ltrrt$attributes, "ltr_identity"))*1
 
 **HINT:**
 <pre class="file" data-target="clipboard">
-table(ltrrt$)
+table(ltrrt$feature)
 </pre>
 
 >>Q2: Is there any difference between the mean percent identity of Gypsy and Copia elements? <<
@@ -34,6 +35,7 @@ table(ltrrt$)
 <pre class="file" data-target="clipboard">
 library("dplyr")
 data <- ltrrt %>%
+  filter(feature=="LTR/Copia"|feature=="LTR/Gypsy")
 
 mu <- data %>% 
   group_by(feature) %>%
