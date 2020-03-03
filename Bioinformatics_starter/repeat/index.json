@@ -12,8 +12,7 @@
       },
       {
         "title": "Annotate repeats in a Chromosome",
-        "text": "step1.md",
-        "code": "copyfiles.sh"
+        "text": "step1.md"
       },
       {
         "title": "Analyse whole chromosome repeat annotation",

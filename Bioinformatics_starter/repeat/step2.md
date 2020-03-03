@@ -6,25 +6,25 @@ Let's load some functions that will help us to parse the gff files
 source("repeat_files/.source/parseGFF3.R")
 </pre>
 
-Now let's import the `copia.gff3` file that we prepared.
+Now let's import the `Arabis_alpina_LTRRT_annotation.gff3` file that we prepared.
 
 <pre class="file" data-target="clipboard">
-copia <- gffRead("repeat_files/chrom/Arabis_alpina_chr2.fasta.mod.EDTA.raw/copia.gff3")
-copia$perName <- getAttributeField(copia$attributes, "ID")
-copia$perID <- as.numeric(getAttributeField(copia$attributes, "ltr_identity"))
+ltrrt <- gffRead("repeat_files/chrom/Arabis_alpina_chr2.fasta.mod.EDTA.raw/Arabis_alpina_LTRRT_annotation.gff3")
+# If you want to use the file we provide in the results folder, run:
+# ltrrt <- gffRead("repeat_files/chrom/res/Arabis_alpina_LTRRT_annotation.gff3")
+ltrrt$perName <- getAttributeField(ltrrt$attributes, "ID")
+ltrrt$perID <- as.numeric(getAttributeField(ltrrt$attributes, "ltr_identity"))*100
 </pre>
 
-Let's do the same with the `gypsy.gff3` file
 
-<pre class="file" data-target="clipboard">
-gypsy <- gffRead("repeat_files/chrom/Arabis_alpina_chr2.fasta.mod.EDTA.raw/gypsy.gff3")
-gypsy$perName <- getAttributeField(gff$attributes, "ID")
-gypsy$perID <- as.numeric(getAttributeField(gff$attributes, "ltr_identity"))
-</pre>
-
->>Q1: How many LTR-RTs are annotated as Copia and how many as Gypsy in the chromosome2 of *Arabis alpina*? <<
+>>Q1: How many LTR-RTs are annotated as Copia and how many as Gypsy in the chromosome2 of Arabis alpina? <<
 
 <br/>
+
+**HINT:**
+<pre class="file" data-target="clipboard">
+table(ltrrt$)
+</pre>
 
 >>Q2: Is there any difference between the mean percent identity of Gypsy and Copia elements? <<
 
@@ -33,7 +33,8 @@ gypsy$perID <- as.numeric(getAttributeField(gff$attributes, "ltr_identity"))
 **HINT:**
 <pre class="file" data-target="clipboard">
 library("dplyr")
-data <- rbind(gypsy,copia)
+data <- ltrrt %>%
+
 mu <- data %>% 
   group_by(feature) %>%
   summarise(grp.mean = mean(perID))

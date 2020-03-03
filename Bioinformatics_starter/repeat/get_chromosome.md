@@ -2,7 +2,7 @@ Repetitive elements include low-complexity DNA sequences and Transposable elemen
 See all the different types of repeat: [link](https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fnrg2165/MediaObjects/41576_2007_Article_BFnrg2165_Fig1_HTML.jpg?as=webp)  
 See the life-cycle of LTR-RTs: [link](https://en.wikipedia.org/wiki/LTR_retrotransposon#/media/File:LTR_retrotransposon.png)
 
-We are in a virtual UNIX environment and an **an rstudio-server is being prepared for you**.  
+We are in **a virtual UNIX environment** and an **an rstudio-server is being prepared for you**.  
 Explore your newly create UNIX environment.
 
 Open a new terminal using the "+" on the right.  
@@ -23,13 +23,13 @@ In the *Katacoda Editor*, browse the *Seq1.txt* and *Seq2.txt* files.
 Now let's find out what they are by annotating them!  
 * Here in the [link](https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fnrg2165/MediaObjects/41576_2007_Article_BFnrg2165_Fig1_HTML.jpg?as=webp), you see that the most of the repeats code for some proteins. We can search for those protein sequences using a database of protein coding domains.
 * Let's first download those core protein coding domains from gydb.org [http://gydb.org/images/1/1a/Cores.zip], and unzip.
-* Copy the content of *Seq1.txt* from Katacoda Editor to your clipboard. Go to « [NCBI blastx tool](https://blast.ncbi.nlm.nih.gov/Blast.cgi?PROGRAM=blastx&PAGE_TYPE=BlastSearch&BLAST_SPEC=blast2seq&LINK_LOC=blasttab), paste the sequence (12’390 bp) as query. 
+* Copy the content of *Seq1.txt* from the *Katacoda Editor* to your clipboard. Go to « [NCBI blastx tool](https://blast.ncbi.nlm.nih.gov/Blast.cgi?PROGRAM=blastx&PAGE_TYPE=BlastSearch&BLAST_SPEC=blast2seq&LINK_LOC=blasttab), paste the sequence (12’390 bp) as query. 
 * Select *Align two or more sequences*
 * Upload the extracted core protein coding domains as *Subject*
 * Expand the *Algorithm parameters* and set the *Max target sequences* to 250
 * Run *BLAST* and wait for the results
 * Examine occurrences of protein domains INT (Integrase), RT (Reverse transcriptase), RNAseH, GAG and AP. 
-**Hint** Go to the *Graphic Summry*, hover over each of the hits against the query sequence to get an idea about the annotation of the protein domains of the repeat sequence. Also, download the *Hit Table csv* from the *Download All* link.
+**Hint** Go to the *Graphic Summary*, hover over each of the hits against the query sequence to get an idea about the annotation of the protein domains of the repeat sequence. Also, download the *Hit Table csv* from the *Download All* link.
 
 
 >>Q1: What do stretches of annotation suggest about this locus? <<
