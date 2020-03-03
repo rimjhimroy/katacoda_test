@@ -77,3 +77,9 @@ md <- data %>%
   summarise(grp.mean = mode(perID))
 md
 </pre>
+
+>>Q5: Using the mode percent identity values can you calculate the time when the TE proliferation was at its peak? <<
+
+<br/>
+
+**HINT:** Use the same formula that we used in Step1: T=D/2t (T, time elapsed since the insertion; D, estimated LTR divergence = (100-%Identity)/100; t,  substitution rate per site per year = 7 × 10^−9 following Ossowski et al. 2010. Science)
