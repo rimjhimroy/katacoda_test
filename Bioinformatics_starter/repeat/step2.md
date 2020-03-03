@@ -48,6 +48,7 @@ mu
 <br/>
 
 <pre class="file" data-target="clipboard">
+library(ggplot2)
 theme_set(theme_bw())
 a <- ggplot(data, aes(x = perID))
 a + geom_density(aes(fill = feature), alpha = 0.4) +
