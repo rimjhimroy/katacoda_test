@@ -58,7 +58,7 @@ a + geom_density(aes(fill = feature), alpha = 0.4) +
   scale_fill_manual(values = c("#868686FF", "#EFC000FF"))
 </pre>
 
->>Q4: What is the time of proliferation of the Gypsy and Copia elements? <<
+>>Q4: What is the peak values of percent identity distributions of the Gypsy and Copia elements? <<
 
 <br/>
 
