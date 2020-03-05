@@ -48,8 +48,8 @@ Now let's find out what they are by annotating them!
 
 
 * For each occurrence separately, extract the left flanking sequence (i.e. everything on the left of the first domain). Do the same for the right flanking sequence (i.e. right of the last domain).
-**HINT:** To extract from the start to 100th base pair execute `awk '{if (/^>/) print $0"_Left"; else print(substr($1,1,10))}' Seq1.txt > Seq1_left.fasta`  
-To extract from the 1000th base pair to the end of the sequence execute `awk '{if (/^>/) print $0"_Right"; else print(substr($1,1000,length($1)))}' Seq1.txt > Seq1_right.fasta`  
+**HINT:** To extract from the start to 100th base pair execute `awk '{if (/^>/) print $0"_Left"; else print(substr($1,1,10))}' Seq1.txt > Seq1_left.fasta`{{execute}}  
+To extract from the 1000th base pair to the end of the sequence execute `awk '{if (/^>/) print $0"_Right"; else print(substr($1,1000,length($1)))}' Seq1.txt > Seq1_right.fasta`{{execute}}  
 **Remember to adjust the values in the substr() according to the position of the start of the first domain and end of the last domain.**
 
 * Go to « [https://blast.ncbi.nlm.nih.gov/], select Nucleotide Blast, “Align two or more sequences”. Paste one sequence from the previous step as query and the other as subject, select “megablast” and Run Blast. Note the matching positions between the two sequences. 
@@ -59,6 +59,9 @@ To extract from the 1000th base pair to the end of the sequence execute `awk '{i
 <br/>
 
 * Note the Identity (%) from the blast result. Calculate the age since copies the LTR-RTs inserted using T=D/2t (T, time elapsed since the insertion; D, estimated LTR divergence = (100-%Identity)/100; t,  substitution rate per site per year = 7 × 10^−9 following Ossowski et al. 2010. Science). 
+
+For example, if the % identity is 90% then D= (100-90)/100 -> 0.1  
+and, T=0.1/(2*7 × 10^−9) -> 7,142,857 years
 
 >>Q4 What is the principle of such molecular dating? Is this accurate (as opposed to the comparison of e.g. genes like PEP1-FLC)? <<
 
